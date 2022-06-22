@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #4d4d57;
+  border-radius: 20px;
+}
+
+h1 {
+  @apply text-3xl;
+}
