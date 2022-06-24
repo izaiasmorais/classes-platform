@@ -3,6 +3,7 @@ import { FormEvent } from "react";
 import { gql, useMutation } from "@apollo/client";
 import { useNavigate } from "react-router-dom";
 import { GreenLogo } from "../components/AssetsTsx/GreenLogo";
+import { Mockup } from "../components/AssetsTsx/Mockup";
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
   mutation CreateSubscriber($name: String!, $email: String!) {
@@ -83,7 +84,7 @@ export function Susbcribe() {
           </form>
         </div>
       </div>
-      <img src="/src/assets/mockup.png" alt="" className="mt-10 " />
+      <Mockup />
     </div>
   );
 }
