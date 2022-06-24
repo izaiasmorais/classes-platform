@@ -1,3 +1,7 @@
-## Online Classes Platform
+<h1 align='center'>
+  Online Classes Platform
+</h1>
 
-<img href="https://i.imgur.com/pUGxppF.png"></img>
+<p align='center'>
+  <img alt='' src='https://i.imgur.com/pUGxppF.png'>
+</p>
