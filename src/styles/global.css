@@ -7,6 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* CUSTOM SCROLLBAR ======================================== */
+
 body::-webkit-scrollbar,
 .aside::-webkit-scrollbar {
   width: 5px;
@@ -35,7 +37,7 @@ h1 {
   @apply h-[620px] overflow-auto;
 }
 
-/* ANIMATION ==================================== */
+/* LOADING ANIMATION ==================================== */
 
 .loading span {
   display: inline-block;
@@ -67,4 +69,17 @@ h1 {
   to {
     transform: translate3d(0, 30px, 0);
   }
+}
+
+/* LESSON CARD BEFORE ===============================*/
+
+.linkActive {
+  position: relative;
+}
+
+.linkActive::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 8px);
+  @apply h-4 w-4 bg-green-500 z-50 left-[-8px] rotate-45;
 }

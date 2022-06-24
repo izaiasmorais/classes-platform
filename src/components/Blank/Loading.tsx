@@ -1,4 +1,4 @@
-import { VoidIcon } from "../../assets/VoidIcon";
+import { VoidIcon } from "../AssetsTsx/VoidIcon";
 
 
 export function Loading() {

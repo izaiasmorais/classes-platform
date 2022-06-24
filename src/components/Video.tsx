@@ -55,11 +55,14 @@ export function Video({ lessonSlug }: VideoProps) {
   }
 
   return (
-    <div className="flex-1 w-[1200px]">
-      <div className="rounded-[4px] h-[610px] bg-gray-500">
-        <div className="h-full w-full max-w-[1100px] aspect-video">
+    <div className="flex-1 max-w-[1200px]">
+      <div className="rounded-[4px] max-h-[610px] bg-gray-500">
+        <div className="max-w-[1100px] aspect-video">
           <Player>
-            <Youtube videoId={data.lesson.videoId} />
+            <Youtube
+              videoId={data?.lesson.videoId}
+              key={data?.lesson.videoId}
+            />
             <DefaultUi />
           </Player>
         </div>
@@ -92,7 +95,8 @@ export function Video({ lessonSlug }: VideoProps) {
 
           <div className="flex flex-col gap-4">
             <a
-              href=""
+              href="https://discord.gg/5RhTYxeh"
+              target="_blank"
               className="p-4 text-sm bg-purple-500 flex items-center rounded font-bold
               uppercase gap-2 justify-center hover:bg-purple-700 transition-colors"
             >
@@ -113,7 +117,8 @@ export function Video({ lessonSlug }: VideoProps) {
 
         <div className="gap-8 mt-20 grid grid-cols-2">
           <a
-            href=""
+            target="_blank"
+            href="https://efficient-sloth-d85.notion.site/Material-complementar-86d4ef35af16471ebc3ae3eba1a378e5"
             className="bg-gray-700 rounded overflow-hidden flex items-stretch
           gap-6 hover:bg-gray-600 transition-colors"
           >
@@ -134,7 +139,8 @@ export function Video({ lessonSlug }: VideoProps) {
             </div>
           </a>
           <a
-            href=""
+            target="_blank"
+            href="https://drive.google.com/drive/folders/1mxWnvlqmH7MbVRv2Na9xFNgCQCygM1iR"
             className="bg-gray-700 rounded overflow-hidden flex items-stretch
           gap-6 hover:bg-gray-600 transition-colors"
           >

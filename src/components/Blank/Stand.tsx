@@ -1,5 +1,5 @@
 import { ArrowCircleRight } from "phosphor-react";
-import { ReactIcon } from "../../assets/ReatcIcon";
+import { ReactIcon } from "../AssetsTsx/ReatcIcon";
 
 export function Stand() {
   return (
