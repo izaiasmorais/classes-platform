@@ -76,7 +76,7 @@ export function Video({ lessonSlug }: VideoProps) {
             <div className="flex items-center gap-4 mt-6">
               <img
                 className="h-16 w-16 rounded-full border-2 border-blue-500"
-                src="https://avatars.githubusercontent.com/u/53953937?v=4"
+                src={data.lesson.teacher.avatarURL}
                 alt=""
               />
               <div className="leading-relaxed">
