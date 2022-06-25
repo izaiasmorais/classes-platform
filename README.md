@@ -11,13 +11,13 @@
 ### 🚀 Desenvolvimento
 - React JS
 - React-router-dom
-- GraphQl
+- GraphQL
 - GraphCMS
-- GraphQl Codegen
+- GraphQL Codegen
 - TypeScript
 - TailwindCSS
 - Vime/React
 
 ### ⚙️ Funcionalidades
-- Inscrição e listagem de dados com GraphQl
+- Inscrição e listagem de dados com GraphQL
 - Reprodução de vídeos com Vime
