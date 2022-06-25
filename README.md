@@ -1,5 +1,5 @@
 <h1 align='center'>
-  Online Classes Platform
+  Online Classes Platform 💻
 </h1>
 
 <p align='center'>
